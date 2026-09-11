@@ -1,129 +1,398 @@
+```html
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Wordle X Privacy Policy</title>
+
+  <meta
+    name="description"
+    content="Privacy Policy for Wordle X, an original word puzzle game."
+  >
+
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 40px 20px;
-      color: #222;
-      background: #fff;
+    :root {
+      --background: #0f1115;
+      --surface: #181b21;
+      --surface-border: #2a2f38;
+      --text: #f5f7fa;
+      --muted: #b5bcc8;
+      --accent: #6aaa64;
+      --accent-hover: #7bc574;
+      --link: #8ab4f8;
     }
 
-```
-h1, h2 {
-  color: #111;
-}
+    * {
+      box-sizing: border-box;
+    }
 
-h1 {
-  margin-bottom: 8px;
-}
+    html {
+      scroll-behavior: smooth;
+    }
 
-.updated {
-  color: #666;
-  margin-bottom: 30px;
-}
+    body {
+      margin: 0;
+      padding: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif;
+      line-height: 1.7;
+    }
 
-a {
-  color: #1565c0;
-}
-```
+    .container {
+      width: min(900px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 48px 0 64px;
+    }
 
+    header {
+      margin-bottom: 36px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--surface-border);
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(2rem, 5vw, 3rem);
+      line-height: 1.15;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+    }
+
+    .updated {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    section {
+      margin: 0 0 32px;
+      padding: 24px;
+      background: var(--surface);
+      border: 1px solid var(--surface-border);
+      border-radius: 16px;
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: 1.35rem;
+      line-height: 1.3;
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    ul {
+      margin: 10px 0 14px;
+      padding-left: 24px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: var(--link);
+    }
+
+    a:hover {
+      color: var(--accent-hover);
+    }
+
+    .highlight {
+      border-left: 4px solid var(--accent);
+      padding-left: 16px;
+    }
+
+    footer {
+      padding-top: 8px;
+      color: var(--muted);
+      text-align: center;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        width: min(100% - 20px, 900px);
+        padding-top: 28px;
+      }
+
+      section {
+        padding: 20px;
+        border-radius: 14px;
+      }
+    }
   </style>
 </head>
 
 <body>
+  <main class="container">
 
-  <h1>Wordle X Privacy Policy</h1>
+    <header>
+      <h1>Wordle X Privacy Policy</h1>
+      <p class="updated">
+        Last updated: September 11, 2026
+      </p>
+    </header>
 
-  <p class="updated">Last updated: September 2, 2026</p>
+    <section>
+      <p>
+        Wordle X is an original word puzzle game developed as an independent
+        project. This Privacy Policy explains how information is handled when
+        you use the Wordle X mobile application.
+      </p>
+    </section>
 
-  <p>
-    Wordle X is an original word puzzle game developed as an independent project.
-    This Privacy Policy explains how information is handled when you use the
-    Wordle X mobile application.
-  </p>
+    <section>
+      <h2>Information Stored by the App</h2>
 
-  <h2>Information Stored by the App</h2>
+      <p>
+        Wordle X may store information locally on your device to provide game
+        features. This may include:
+      </p>
 
-  <p>
-    Wordle X may store information locally on your device to provide game
-    features. This may include:
-  </p>
+      <ul>
+        <li>Game progress and saved games</li>
+        <li>Game statistics and history</li>
+        <li>Streaks and Daily Challenge progress</li>
+        <li>Achievements, badges, XP and level information</li>
+        <li>Your chosen username</li>
+        <li>Game settings and preferences</li>
+      </ul>
 
-  <ul>
-    <li>Game progress and saved games</li>
-    <li>Game statistics and history</li>
-    <li>Streaks and daily challenge progress</li>
-    <li>Achievements, badges, XP and level information</li>
-    <li>Your chosen username</li>
-    <li>Game settings and preferences</li>
-  </ul>
+      <p>
+        This information is primarily stored locally on your device and is
+        used to provide the features of the game. Wordle X does not require
+        you to create an account.
+      </p>
+    </section>
 
-  <p>
-    This information is stored locally on your device and is used to provide
-    the features of the game.
-  </p>
+    <section>
+      <h2>Analytics</h2>
 
-  <h2>Information We Collect</h2>
+      <p>
+        Wordle X uses Google Analytics for Firebase to understand how the app
+        is used and to improve the game.
+      </p>
 
-  <p>
-    Wordle X does not require you to create an account or provide personal
-    information such as your name, email address, phone number, or physical
-    address in order to play the game.
-  </p>
+      <p>
+        Analytics may collect information such as:
+      </p>
 
-  <p>
-    Wordle X does not currently use advertising services, third-party
-    analytics, or user accounts.
-  </p>
+      <ul>
+        <li>App sessions and session duration</li>
+        <li>App opens and general app usage</li>
+        <li>Operating system and device information</li>
+        <li>An app-instance identifier used for analytics</li>
+        <li>Coarse geographic information derived by the analytics service</li>
+        <li>Gameplay and feature-usage events</li>
+      </ul>
 
-  <h2>Internet and Data Sharing</h2>
+      <p>
+        Wordle X also sends custom analytics events that may describe actions
+        such as starting or completing a game, winning or losing, the selected
+        word-length mode, Daily Challenge activity, and use of features such
+        as Statistics, Profile, Achievements and Settings.
+      </p>
 
-  <p>
-    Wordle X does not currently send your game progress, statistics, username,
-    or settings to a developer-operated server or cloud account.
-  </p>
+      <p>
+        Wordle X does not intentionally send your username, email address,
+        phone number, physical address, or other directly identifying personal
+        information to Google Analytics through its custom analytics events.
+      </p>
 
-  <p>
-    We do not sell or share your personal information with third parties for
-    advertising purposes.
-  </p>
+      <p>
+        Analytics information is used for purposes such as understanding
+        usage, measuring engagement, improving gameplay and features, and
+        identifying areas where the app can be improved.
+      </p>
 
-  <h2>Children's Privacy</h2>
+      <p>
+        Google Analytics for Firebase is provided by Google. Analytics data is
+        handled according to Google's applicable terms and privacy practices.
+      </p>
 
-  <p>
-    Wordle X is a general-audience word puzzle game. The app does not knowingly
-    collect personal information from children.
-  </p>
+      <p>
+        For more information about Google's handling of data through Firebase
+        Analytics, please see
+        <a
+          href="https://firebase.google.com/support/privacy"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Google's Firebase Privacy and Security documentation
+        </a>.
+      </p>
+    </section>
 
-  <h2>Data Security</h2>
+    <section>
+      <h2>Information We Do Not Require</h2>
 
-  <p>
-    Information stored locally by the app remains on your device and is
-    subject to the security protections provided by your device and operating
-    system.
-  </p>
+      <p>
+        Wordle X does not require you to create an account or provide personal
+        information such as your name, email address, phone number, or
+        physical address in order to play the game.
+      </p>
 
-  <h2>Changes to This Privacy Policy</h2>
+      <p>
+        Wordle X does not use advertising services in the current version of
+        the app and does not use analytics for personalised advertising.
+      </p>
+    </section>
 
-  <p>
-    This Privacy Policy may be updated if the features or data practices of
-    Wordle X change. Any updated version will be published on this page.
-  </p>
+    <section>
+      <h2>Internet and Data Sharing</h2>
 
-  <h2>Contact</h2>
+      <p>
+        Wordle X does not operate its own user account or game-progress cloud
+        service. Your saved game information, statistics, username and
+        settings are intended to remain stored locally on your device.
+      </p>
 
-  <p>
-  If you have questions about this Privacy Policy or Wordle X, please contact
-  us at wordlex.game@gmail.com
-  </p>
+      <p>
+        Analytics information is transmitted to Google through Google
+        Analytics for Firebase so that app usage can be measured and analysed.
+      </p>
 
+      <p>
+        We do not sell your personal information.
+      </p>
+
+      <p>
+        We do not intentionally share your username, email address, or other
+        directly identifying personal information with third parties for
+        advertising purposes.
+      </p>
+    </section>
+
+    <section>
+      <h2>Third-Party Services</h2>
+
+      <p>
+        Wordle X uses third-party services to provide certain technical
+        functionality.
+      </p>
+
+      <p>
+        The current version uses:
+      </p>
+
+      <ul>
+        <li>
+          <strong>Google Analytics for Firebase</strong> for app analytics and
+          usage measurement.
+        </li>
+      </ul>
+
+      <p>
+        Third-party services may process information according to their own
+        privacy policies and terms.
+      </p>
+    </section>
+
+    <section>
+      <h2>Children's Privacy</h2>
+
+      <p>
+        Wordle X is a general-audience word puzzle game.
+      </p>
+
+      <p>
+        Wordle X does not knowingly request or require children to provide
+        personal information such as their name, email address, phone number,
+        or physical address.
+      </p>
+
+      <p>
+        The app does not provide user-to-user messaging or social communication
+        features.
+      </p>
+    </section>
+
+    <section>
+      <h2>Data Security</h2>
+
+      <p>
+        Information stored locally by the app remains on your device and is
+        subject to the security protections provided by your device and
+        operating system.
+      </p>
+
+      <p>
+        Analytics information transmitted to Google Analytics for Firebase is
+        protected in transit using encryption provided by the service.
+      </p>
+    </section>
+
+    <section>
+      <h2>Data Retention and Deletion</h2>
+
+      <p>
+        Locally stored Wordle X data remains on your device until it is
+        deleted or cleared by you or by the operating system.
+      </p>
+
+      <p>
+        Because Wordle X does not require a user account, there is no Wordle X
+        account that you need to delete.
+      </p>
+
+      <p>
+        Analytics data is retained and managed by Google Analytics according
+        to the configuration of the analytics service and Google's applicable
+        policies.
+      </p>
+    </section>
+
+    <section>
+      <h2>Changes to This Privacy Policy</h2>
+
+      <p>
+        This Privacy Policy may be updated if the features or data practices
+        of Wordle X change.
+      </p>
+
+      <p>
+        Any updated version will be published on this page, together with a
+        revised "Last updated" date.
+      </p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+
+      <p>
+        If you have questions about this Privacy Policy or Wordle X, please
+        contact:
+      </p>
+
+      <p class="highlight">
+        <strong>Email:</strong>
+        <a href="mailto:wordlex.game@gmail.com">
+          wordlex.game@gmail.com
+        </a>
+      </p>
+    </section>
+
+    <footer>
+      &copy; 2026 Wordle X. All rights reserved.
+    </footer>
+
+  </main>
 </body>
 </html>
+```
